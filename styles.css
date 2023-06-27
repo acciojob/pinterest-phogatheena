@@ -1,12 +1,24 @@
 /*  your css code here. If applicable */
-.hero
-{
-  
+.hero {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
-#btn
-{
-	color:white;
-	background-color:red;
-	padding:10px;
-	border-radius:7px;
+
+
+.hero>div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    text-align: center;
+    justify-content: flex-start;
+}
+
+#btn{
+    padding: 15px;
+    background: red;
+    color: white;
+    border: none;
+	border-radius:10px;
 }
