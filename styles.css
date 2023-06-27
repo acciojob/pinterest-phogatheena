@@ -1,7 +1,7 @@
 /*  your css code here. If applicable */
 .hero {
     display: flex;
-    flex-direction: row;
+/*     flex-direction: row; */
     align-items: center;
 }
 .hero>div {
@@ -10,7 +10,6 @@
     align-items: center;
     padding: 40px;
     text-align: center;
-/*     justify-content: flex-start; */
 }
 #btn{
     padding: 15px;
