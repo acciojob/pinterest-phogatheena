@@ -1,16 +1,18 @@
 /*  your css code here. If applicable */
-.hero {
-    display: flex;
-/*     flex-direction: row; */
-    align-items: center;
+.hero
+{
+	display:flex;
+	/*   flex-direction: row; */
+	align-items:center;
 }
 .hero>div {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 40px;
-    text-align: center;
+/*     text-align: center; */
 }
+
 #btn{
     padding: 15px;
     background: red;
